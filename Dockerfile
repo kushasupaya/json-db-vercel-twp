@@ -1,7 +1,13 @@
-FROM node:14
+FROM node:16
+
 WORKDIR /app
-COPY . /app
+
+COPY ["package.json", "package-lock.json*", "./"]
+
 RUN npm install
-ENV PORT 8000
+
+COPY . .
+
 EXPOSE 8000
-CMD ["npm", "start"]
+
+CMD [ "npm", "start" ]
