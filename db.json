@@ -2,10 +2,10 @@
   "ratings": [
     {
       "id": 1,
-      "fullname": "Ram",
+      "fullname": "Mark",
       "rating": 4,
       "message": "Great experience",
-      "location": "Nepal"
+      "location": "England"
     }
   ]
 }
